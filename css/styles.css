@@ -103,23 +103,63 @@ body {
   }
 }
 
-.bio, .book {
-  margin-top: 55px;
+.bio, .book, .homepage {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.homepage {
+  margin-bottom: 0px !important;
 }
 
 .bio-1 {
   margin-top: 15px !important;
 }
 
-.bio p, .book p {
+.bio p, .book p, .homepage p {
   font-family: 'Adamina', serif;
   line-height: 35px;
   font-size: 1.7rem;
 }
 
-.bio h2, .book h2 {
+.homepage h3 {
+  font-family: 'Adamina', serif;
+  font-size: 5rem;
+}
+
+.homepage-paragraph {
+  margin-top: 8%;
+}
+
+.homepage-blog p {
+  padding: 0 10%;
+  font-family: 'Adamina', serif;
+  line-height: 35px;
+  font-size: 1.7rem;
+}
+
+.homepage-blog h4 {
+  padding: 0 10%;
+}
+
+.homepage-blog img {
+  margin: 28% 0;
+}
+
+.bio h2, .book h2, .homepage h2 {
   font-family: 'Great Vibes', cursive;
   font-size: 50px;
+}
+
+.mail-list {
+  height: auto;
+  width: 100%;
+  background-color: lightgrey;
+  padding: 25px;
+}
+
+.mail-list input {
+  width: 200px;
 }
 
 .vertical-container {
@@ -157,5 +197,30 @@ body {
   position: absolute;
   top: -2%;
   left: 29%;
+}
+
+.bio-paragraph {
+  padding: 5% 2%;
+}
+
+
+
+hr.style-seven {
+    height: 30px;
+    width: 75%;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
 }
 
