@@ -4,6 +4,10 @@
 /* *********************************
    Some Style Overrides on Bootstrap
   ********************************** */
+body {
+  background: url('../images/nice_snow.png')
+}
+
 .navbar-inverse {
   background: rgba(62, 195, 246, 0);
   border-bottom: none;
@@ -59,7 +63,8 @@
   font-family: 'Great Vibes', cursive;
 }
 .big-logo-row .big-logo-container {
-  padding-top: 250px;
+  padding-top: 210px;
+  text-align: center;
 }
 .big-logo-row h1 {
   font-size: 4em;
@@ -142,5 +147,15 @@
 
 .footer {
   padding: 25px;
+}
+
+
+
+
+
+.sabrina-pic { 
+  position: absolute;
+  top: -2%;
+  left: 29%;
 }
 
