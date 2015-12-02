@@ -18,6 +18,9 @@
 
     <link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Adamina' rel='stylesheet' type='text/css'>
+
+    <!-- Awesome Icons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   </head>
 
   <body>
@@ -66,21 +69,23 @@
        <div class="row book">
          <h2 class="text-center">Latest Book</h2>
          <hr style="width: 5%; border-color: black;">
-         <h3 class="text-center">Onika</h3>
+         <h3 class="text-center">- Onika -</h3>
          <div class="col-md-12 text-center">
            <img src="images/onika.jpg" width="225px">
+           <p>Cost: $12</p>
+           <p>S&H: $4</p>
            <p>Onika is a tale about family, rebelliousness, revenge & ultimately forgiveness. This story explores the consequences of Onika’s actions and the affects it has on her life and loved ones.</p>
-           <button>Find Out More</button><button>Add to Cart</button>
+           <a href="books.html" class="btn btn-lg btn-custom"><span class="glyphicon glyphicon-book"></span> Find Out More</a> &nbsp &nbsp <a href="books.html" class="btn btn-lg btn-custom"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</a>
          </div>
        </div><!--/.row -->
 
        <hr class="style-seven">
 
-       <div class="row book">
+       <div class="row book book1">
          <h2 class="text-center">About Sabrina Jones</h2>
          <hr style="width: 5%; border-color: black;">
          <div class="col-md-8 homepage-paragraph">
-           <p>Bri Jones was born and raised in Farrell, Pennsylvania, then later relocated to the Washington D.C. area with her young son. Bri graduated from Slippery Rock University with a Bachelor of Science in Accounting. Bri completed her Master's in Business Administration at University of Maryland University College. <button>Read More</button></p>
+           <p>Bri Jones was born and raised in Farrell, Pennsylvania, then later relocated to the Washington D.C. area with her young son. Bri graduated from Slippery Rock University with a Bachelor of Science in Accounting. Bri completed her Master's in Business Administration at University of Maryland University College.<br><br> <a href="bio.html" class="btn btn-block btn-lg btn-custom"><span class="glyphicon glyphicon-user"></span> Read More</a></p>
          </div>
          <div class="col-md-4">
            <img src="images/bio-pic.jpg" class="img-responsive" width="300px" style="border-radius: 150px;">
@@ -91,7 +96,7 @@
      <hr class="style-seven">
 
      <div class="container">
-       <div class="row homepage homepage-blog">
+       <div class="row homepage homepage-blog book1">
          <h2 class="text-center">My Blog</h2>
          <hr style="width: 5%; border-color: black;">
          <div class="col-md-6">
@@ -145,7 +150,13 @@
      <div class="container-fluid">
        <div class="row homepage">
          <div class="col-md-12 mail-list text-center">
-           <input type="text" placeholder="Sign up to receive newsletter"><button>Subscribe!</button>
+          <label><u>SIGN UP FOR NEWSLETTER</u></label>
+          <div class="input-group" style="width: 35%; margin: 0 auto;">
+            <input type="text" class="form-control" placeholder="Enter Email...">
+            <span class="input-group-btn">
+              <button class="btn btn-custom" type="button">Subscribe!</button>
+            </span>
+          </div>
          </div>
        </div>
      </div>
@@ -154,17 +165,28 @@
    <footer class="vertical-container">
      <div class="container footer">
        <div class="row text-center">
-         <div class="col-md-4">
+         <div class="col-md-2">
            
            <ul class="footer-navigation">
-             <li><h4><u>Authorbrijones.com</u></h4></li>
-             <a href=""><li>HOME</li></a>
-             <a href=""><li>BIOGRAPHY</li></a>
-             <a href=""><li>BUY BOOK</li></a>
+             <li><h4><u>Contact</u></h4></li>
+             <li><p>PO Box 463</p></li>
+             <li><p>Laurel, MD 20725</p></li>
+             <li><p>AuthorBriJones@gmail.com</p></li>
+           </ul>
+         </div> 
+
+         <div class="col-md-2">
+           
+           <ul class="footer-navigation">
+             <li><h4><u>Site Map</u></h4></li>
+             <a href="index.html"><li>HOME</li></a>
+             <a href="bio.html"><li>BIOGRAPHY</li></a>
+             <a href="books.html"><li>BOOK</li></a>
              <a href=""><li>BLOG</li></a>
              <a href=""><li>CONTACT</li></a>
            </ul>
          </div>
+         
          <div class="col-md-4 text-center">
            <ul class="footer-navigation">
              <li><h4><u>FOLLOW ME:</u></h4> </li> 

@@ -108,12 +108,17 @@ body {
   margin-bottom: 75px;
 }
 
+.book1 {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+}
+
 .homepage {
   margin-bottom: 0px !important;
 }
 
 .bio-1 {
-  margin-top: 15px !important;
+  margin-top: -45px !important;
 }
 
 .bio p, .book p, .homepage p {
@@ -122,7 +127,7 @@ body {
   font-size: 1.7rem;
 }
 
-.homepage h3 {
+.book h3 {
   font-family: 'Adamina', serif;
   font-size: 5rem;
 }
@@ -224,3 +229,7 @@ hr.style-seven:before { /* Not really supposed to work, but does */
     border-radius: 20px;
 }
 
+.btn-custom {
+  background-color: #3EC3F6;
+  color: white;
+}
