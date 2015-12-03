@@ -8,99 +8,23 @@ body {
   background: url('../images/nice_snow.png')
 }
 
-.navbar-inverse {
-  background: rgba(62, 195, 246, 0);
-  border-bottom: none;
-}
-
-.navbar-inverse .navbar-toggle {
-  border: 1px solid #333;
-  border-color: rgba(255, 255, 255, 0.7);
-}
-
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-  border-color: transparent;
-}
-@media (max-width: 767px) {
-  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    background: rgba(255, 255, 255, 0.75);
-  }
-}
-
-.navbar-inverse .navbar-nav > li > a {
-  color: black;
-}
-
-.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-  color: #22F;
-}
-
-/* *********************************
-           Toolbar Logo
-  ********************************** */
-.small-logo-container {
-  padding-top: 50px;
-  height: 50px;
-  overflow: hidden;
-  position: absolute;
-}
-
-.small-logo {
+#hero h1 {
   color: white;
-  font-size: 2.5em;
-  padding-bottom: 2px;
   font-family: 'Great Vibes', cursive;
-}
-
-/* *********************************
-           Big Logo
-  ********************************** */
-.big-logo-row {
-  background: gold;
-}
-
-.big-logo {
-  font-family: 'Great Vibes', cursive;
-}
-.big-logo-row .big-logo-container {
-  padding-top: 210px;
+  font-size: 115px;
   text-align: center;
+  margin-top: 15%;
 }
-.big-logo-row h1 {
-  font-size: 4em;
-  margin: 0;
-  padding: 0 0 15px 0;
+
+#hero ul {
+  color: white;
+  font-family: 'Great Vibes', cursive;
+  font-size: 32px;
+  padding: 20px;
 }
-@media (min-width: 400px) {
-  .big-logo-row h1 {
-    font-size: 4.5em;
-  }
-}
-@media (min-width: 440px) {
-  .big-logo-row h1 {
-    font-size: 5.5em;
-  }
-}
-@media (min-width: 500px) {
-  .big-logo-row h1 {
-    font-size: 6.5em;
-  }
-}
-@media (min-width: 630px) {
-  .big-logo-row h1 {
-    font-size: 7.5em;
-  }
-}
-@media (min-width: 768px) {
-  .big-logo-row h1 {
-    font-size: 9em;
-    padding-bottom: 30px;
-  }
-}
-@media (min-width: 1200px) {
-  .big-logo-row h1 {
-    font-size: 12em;
-  }
+
+#hero ul a {
+  color: white;
 }
 
 .bio, .book, .homepage {
@@ -232,4 +156,20 @@ hr.style-seven:before { /* Not really supposed to work, but does */
 .btn-custom {
   background-color: #3EC3F6;
   color: white;
+}
+
+.jumbotron1 {
+  width: 100%;
+   height: 90vh;
+   max-height: 100vw;
+   background: url('../images/brijones.jpg') center center;
+   background-size: 100% 175%;
+   background-repeat: no-repeat;
+   position: relative;
+}
+
+#hero {
+  background: url('../images/brijones.jpg') center;
+  background-size: 100% 140%;
+
 }
