@@ -8,22 +8,33 @@ body {
   background: url('../images/nice_snow.png')
 }
 
-#hero h1 {
+#hero h1, #hero-bio h1 {
   color: white;
   font-family: 'Great Vibes', cursive;
   font-size: 115px;
   text-align: center;
-  margin-top: 15%;
+  margin-top: 23%;
 }
 
-#hero ul {
+#hero-bio h1 {
+  text-align: left;
+  margin-left: 5%;
+  margin-top: 10% !important;
+}
+
+#hero ul, #hero-bio ul {
   color: white;
   font-family: 'Great Vibes', cursive;
   font-size: 32px;
   padding: 20px;
+  text-align: center;
 }
 
-#hero ul a {
+#hero li, #hero-bio li {
+  padding: 0px 85px;
+}
+
+#hero ul a, #hero-bio ul a {
   color: white;
 }
 
@@ -154,7 +165,12 @@ hr.style-seven:before { /* Not really supposed to work, but does */
 }
 
 .btn-custom {
-  background-color: #3EC3F6;
+  background: #614126;
+    background-image: -webkit-linear-gradient(top, #614126, orange);
+    background-image: -moz-linear-gradient(top, #614126, orange);
+    background-image: -ms-linear-gradient(top, #614126, orange);
+    background-image: -o-linear-gradient(top, #614126, orange);
+    background-image: linear-gradient(to bottom, #614126, orange);
   color: white;
 }
 
@@ -171,5 +187,47 @@ hr.style-seven:before { /* Not really supposed to work, but does */
 #hero {
   background: url('../images/brijones.jpg') center;
   background-size: 100% 140%;
+  background-position: 0px 0px;
+}
+
+#hero-bio {
+    width: 100%;
+    height: 85vh;
+    max-height: 100vw;
+    background: url('../images/bri-bio.jpg');
+    background-size: cover;
+    position: relative;
+    background-position: 0px -250px;
+}
+
+#hero a:hover, #hero-bio a:hover {
+  color: white;
+  background: #614126;
+    background-image: -webkit-linear-gradient(top, #614126, orange);
+    background-image: -moz-linear-gradient(top, #614126, orange);
+    background-image: -ms-linear-gradient(top, #614126, orange);
+    background-image: -o-linear-gradient(top, #614126, orange);
+    background-image: linear-gradient(to bottom, #614126, orange);
+  border-radius: 20px;
+}
+
+.active1 {
+  background: #614126;
+    background-image: -webkit-linear-gradient(top, #614126, orange);
+    background-image: -moz-linear-gradient(top, #614126, orange);
+    background-image: -ms-linear-gradient(top, #614126, orange);
+    background-image: -o-linear-gradient(top, #614126, orange);
+    background-image: linear-gradient(to bottom, #614126, orange);
+  border-radius: 20px;
 
 }
+
+
+@media screen and (max-width: 1280px) {
+
+  #hero li, #hero-bio li {
+    padding: 0px 65px;
+  }
+
+}
+

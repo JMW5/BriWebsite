@@ -26,52 +26,26 @@
 
   <body>
 
-  <!-- Fixed navbar -->
-   <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-     <div class="container">
-       <div class="navbar-header">
-         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-           <span class="sr-only">Toggle navigation</span>
-           <span class="icon-bar"></span>
-           <span class="icon-bar"></span>
-           <span class="icon-bar"></span>
-         </button>
-         <div class="small-logo-container">
-           <a class="small-logo" href="#">About Sabrina Jones</a>
-         </div>
-       </div>
-       <div class="navbar-collapse collapse">
-         
-         <ul class="nav navbar-nav navbar-right">
-           <li><a href="index.html">HOME</a></li>
-           <li class="active"><a href="bio.html">BIOGRAPHY</a></li>
-           <li><a href="books.html">BOOKS</a></li>
-           <li><a href="#">BLOG</a></li>
-           <li><a href="#">CONTACT</a></li>
-         </ul>
-       </div><!--/.nav-collapse -->
-     </div>
-   </div>
+    <div id="hero-bio">
+      <ul class="nav nav-pills">
+        <li><a href="index.html">Home</a></li>
+        <li class="active1"><a href="bio.html">Biography</a></li>
+        <li><a href="books.html">Books</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
 
-   <div class="container-fluid big-logo-row">
-     <div class="container">
-       <div class="row">
-         <div class="col-xs-12 big-logo-container">
-           <h1 class="big-logo">Sabrina &nbsp &nbsp &nbsp Jones</h1>
-            <img src="images/hero-image.png" class="img-responsive sabrina-pic" width="450px" height="550px">
-         </div><!--/.col-xs-12 -->
-       </div><!--/.row -->
-     </div><!--/.container -->
-   </div><!--/.container-fluid -->
+      <h1>Bri Jones</h1>
+    </div>  
 
 
    <!--Beginning of Content-->
    <div class="container">
      <div class="row bio">
-       <h2 class="text-center">About Sabrina Jones</h2> 
+       <h2 class="text-center">About Bri Jones</h2> 
        <hr style="width: 15%; border-color: black;">
        <div class="col-md-4">
-         <img src="images/bio-pic.jpg" class="img-responsive">
+         <img src="images/bri-bio2.jpg" class="img-responsive" style="border-radius: 20px;">
        </div>
        <div class="col-md-8 bio-paragraph">
          <p>Bri Jones was born and raised in Farrell, Pennsylvania, then later relocated to the Washington D.C. area with her young son.  Bri graduated from Slippery Rock University with a Bachelor of Science in Accounting. Bri completed her Master's in Business Administration at University of Maryland University College.</p>
@@ -79,10 +53,12 @@
          <p>When Bri isn't tied to a computer crunching numbers, she enjoys writing short stories and sharing them with her family and friends. Bri also enjoys traveling and spending time with her son. Bri likes to explore and learn about history and different cultures. Bri feels that everyone has hidden talents that are waiting to be explored.</p>
        </div>
      </div>
-     <div class="row text-center bio bio-1">
-       <h2>Message from the Author</h2>
+
+     <hr class="style-seven"><br><br>
+
+     <div class="row bio bio-1">
+       <h2 class="text-center">Message from the Author</h2>
        <hr style="width: 15%; border-color: black;">
-       <div class="col-md-2"></div>
        <div class="col-md-8">
          <p>I was encouraged to write this tale of Onika, to show a positive image that focuses on people of color. This is a positive and uplifting story, which young & mature people of color can be proud of.  When you look at the media, cartoons and society that our culture is exposed to you don’t see the strong, secure and powerful people of color doing well or displayed in a positive image. I wanted to plant that seed, that we are all Kings & Queens. We are a culture of fashion, class, respect, strength and of importance.</p>
 
@@ -90,7 +66,9 @@
 
          <p>Regardless of your age; this is a story that will captivate the emotions and imaginations of the whole family.</p>
        </div>
-       <div class="col-md-2"></div>
+       <div class="col-md-4">
+         <img src="images/bio-pic.jpg" class="img-responsive" style="border-radius: 20px;">
+       </div>
      </div>
    </div>
    <!--End of Beginning of Content-->
@@ -156,6 +134,8 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+   
    
     <script src="js/bootstrap.min.js"></script>
     <script src="js/app.js"></script>
