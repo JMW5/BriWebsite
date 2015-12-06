@@ -23,7 +23,7 @@ body {
 }
 
 #hero-blog h1 {
-  margin-top: 23% !important;
+  margin-top: 17% !important;
   margin-left: 10%;
 }
 
@@ -191,9 +191,9 @@ hr.style-seven:before { /* Not really supposed to work, but does */
 }
 
 #hero {
-  background: url('../images/brijones.jpg') center;
-  background-size: 100% 140%;
-  background-position: 0px 0px;
+  background: url('../images/brijones.jpg') fixed center;
+  background-size: cover;
+  background-position: 0px -130px;
 }
 
 #hero-bio {
@@ -208,7 +208,7 @@ hr.style-seven:before { /* Not really supposed to work, but does */
 
 #hero-books {
   height: 75vh;
-  background: url('../images/brijones.jpg') center;
+  background: url('../images/brijones.jpg') fixed center;
   background-size: cover;
   background-position: 0px -220px;
 }
@@ -245,7 +245,7 @@ hr.style-seven:before { /* Not really supposed to work, but does */
 
 @media screen and (max-width: 1280px) {
 
-  #hero li, #hero-bio li {
+  #hero li, #hero-bio li, #hero-blog li, #hero-books li {
     padding: 0px 65px;
   }
 
