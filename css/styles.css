@@ -8,6 +8,18 @@ body {
   background: url('../images/nice_snow.png');
 }
 
+.flex-nav {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  list-style: none;
+  font-size: 4rem !important;
+}
+
+.flex-nav a {
+  text-decoration: none;
+}
+
 
 #hero h1, #hero-bio h1, #hero-books h1, #hero-blog h1 {
   color: white;
@@ -23,8 +35,9 @@ body {
 }
 
 #hero-blog h1 {
-  margin-top: 19% !important;
-  
+  margin-top: 21% !important;
+  font-size: 60px !important;
+  text-align: right;
 }
 
 #hero ul, #hero-bio ul, #hero-books ul, #hero-blog ul {
@@ -35,9 +48,7 @@ body {
   text-align: center;
 }
 
-#hero li, #hero-bio li, #hero-books li, #hero-blog li {
-  padding: 0px 85px;
-}
+
 
 #hero ul a, #hero-bio ul a, #hero-books ul a, #hero-blog ul a {
   color: white;
@@ -188,14 +199,12 @@ hr.style-seven:before { /* Not really supposed to work, but does */
 }
 
 .jumbotron1 {
-   width: 100%;
-   height: 130vh;
-   max-height: 100vw;
-   background: url('../images/brijones.jpg') center center;
-   background-size: 100% 100%;
-   background-repeat: no-repeat;
-   position: relative;
-   background-position: 0px 0px;
+    width: 100%;
+    height: 1150px;
+    background-image: url("../images/brijones.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
 }
 
 .jumbotron2 {
@@ -228,7 +237,7 @@ hr.style-seven:before { /* Not really supposed to work, but does */
   background-position: 0px -220px;
 }
 
-#hero a:hover, #hero-bio a:hover, #hero-books a:hover, #hero-blog a:hover {
+#hero li a:hover, #hero-bio a:hover, #hero-books a:hover, #hero-blog a:hover {
   color: white;
   background: #614126;
     background-image: -webkit-linear-gradient(top, #614126, orange);
@@ -237,6 +246,7 @@ hr.style-seven:before { /* Not really supposed to work, but does */
     background-image: -o-linear-gradient(top, #614126, orange);
     background-image: linear-gradient(to bottom, #614126, orange);
   border-radius: 20px;
+  width: 100%;
 }
 
 .active1 {
